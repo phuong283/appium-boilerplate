@@ -19,7 +19,7 @@ jobs:
           command: "echo Hello, World!"
   runner:
     machine: true
-    resource_class: appium-boilerplate/phuong283
+    resource_class: phuong283/phuong283
     steps:
       - run: echo "Hi I'm on Runners!"        
 
